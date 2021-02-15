@@ -1,0 +1,79 @@
+h1 {
+    color: red;
+    display: block;
+    
+}
+html {
+    background-color: black;
+    text-align: center;
+    
+}
+
+
+button {
+    display: block;
+    margin-left: 620px;
+    margin-top: 30px;
+    size: 200%;
+}
+.js-save {
+    color: wheat;
+    background-color: lightslategray;
+    width: 80px;
+    margin-left: 600px;
+    opacity: 0;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+
+
+#html-setting {
+    margin-right: 900px;
+    margin-top: 20px;
+    
+}
+
+#html-setting:hover {
+    filter: invert(100%);
+        -webkit-filter: invert(100%);
+}
+
+.setting-list {
+    background-color: lightslategrey;
+    border-radius: 10px ;
+}
+
+@keyframes fadein {
+    from {
+        opacity:1;
+    }
+    to {
+        opacity:0;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:1;
+    }
+    to {
+        opacity:0;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:1;
+    }
+    to {
+        opacity:0;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:1;
+    }
+    to {
+        opacity: 0;
+    }
+}
